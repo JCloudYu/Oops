@@ -1,0 +1,33 @@
+/* #>INFO: Vertical Alignment */
+.v-top:before	 { content:' '; display: inline-block; vertical-align:top; height:100%; margin-right:-0.25em; }
+.v-top > *		 { display:inline-block; vertical-align:top; }
+.v-center:before { content:' '; display: inline-block; vertical-align:middle; height:100%; margin-right:-0.25em; }
+.v-center > * 	 { display:inline-block; vertical-align:middle; }
+.v-bottom:before { content:' '; display: inline-block; vertical-align:bottom; height:100%; margin-right:-0.25em; }
+.v-bottom > * 	 { display:inline-block; vertical-align:bottom; }
+
+/* #>INFO: Text Alignment*/
+.t-left		{ text-align:left;    }
+.t-right	{ text-align:right;   }
+.t-center	{ text-align:center;  }
+.t-justify	{ text-align:justify; }
+.t-justify.force-justify:after { content:""; display:inline-block; width:100%; }
+
+/* #>INFO: BootStrap's clearfix */
+.clearfix:before, .clearfix:after { display:table;content: " "; }
+.clearfix:after { clear:both; }
+
+/* #>INFO: Floating Control */
+.float-left{ float:left; } .float-right{ float:right; }
+
+/* #>INFO: Display Control */
+.display-inline { display:inline; }
+.display-inline-block { display:inline-block; }
+.display-block { display:block; }
+.position-absolute { position:absolute; }
+.position-relative { position:relative; }
+.hidden { display:none; }
+.invisible { visibility:hidden; }
+
+/* #>INFO: Mobile control */
+.smooth-scroll { -webkit-overflow-scrolling:touch; }

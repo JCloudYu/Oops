@@ -1,0 +1,5 @@
+/* INFO: App related context */
+.projection { width:100%; height:100%; }
+.viewport { width:100%; height:100%; }
+.stage, .scene, .sprite, .view { position:absolute; }
+.stage, .scene, .view { width:100%; height:100%; }
